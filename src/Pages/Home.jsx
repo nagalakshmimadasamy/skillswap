@@ -385,8 +385,8 @@ const Home = () => {
     {[
       {name: "Nagalakshmi", skill: "Python", feedback: "This platform made learning fun!", img: "public/naga1.jpg"},
       {name: "Lakshmi", skill: "React", feedback: "I quickly found a mentor!", img: "public/la.jpg"},
-      {name: "Nageshwari", skill: "Graphic Design", feedback: "Amazing platform for learning and teaching!", img: "public/nagzz.jpg"},
-      {name: "Divya", skill: "Data Analysis", feedback: "I improved my skills so fast!", img:"public/div.jpg"},
+      {name: "Nageshwari", skill: "Graphic Design", feedback: "Amazing platform for learning and teaching!", img: "public/naga.jpg"},
+      {name: "Divya", skill: "Data Analysis", feedback: "I improved my skills so fast!", img:"public/di.jpg"},
     ].map((t, i) => (
       <div
         key={i}
