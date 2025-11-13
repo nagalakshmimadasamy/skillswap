@@ -8,6 +8,7 @@ import Profile from './Pages/Profile'
 import SeeProfile from './Pages/SeeProfile'
 import Home from './Pages/Home'
 import Course from './Pages/Course'
+import ChatBot from "./Pages/ChatBot";
 const App = () => {
   return (
     <div>
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/seeprofile/:id" element={<SeeProfile/>}/>
         <Route path="*" element={<NotFound />}/>
       </Routes>
+      <ChatBot />
     </div>
   )
 }

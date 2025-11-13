@@ -1,19 +1,19 @@
+// src/firebase.js
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCmMlEu6cwpY6Dh7TvhtQzzt_qMJr5D-Jg",
-    authDomain: "skillswap-c5823.firebaseapp.com",
-    projectId: "skillswap-c5823",
-    storageBucket: "skillswap-c5823.firebasestorage.app",
-    messagingSenderId: "953518220689",
-    appId: "1:953518220689:web:7739752a5d1b21091aa630",
-    measurementId: "G-DQC383WY0C"
+  apiKey: "AIzaSyACyGGcVqaMlpo9BXQinr4FjJbHxPeeH78",
+  authDomain: "skillsweb-8d262.firebaseapp.com",
+  projectId: "skillsweb-8d262",
+  storageBucket: "skillsweb-8d262.firebasestorage.app",
+  messagingSenderId: "1011668610753",
+  appId: "1:1011668610753:web:086ae6bd59334306bf6e40",
+  measurementId: "G-603HZG3CS8"
 };
 
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-const db = getFirestore(app);
-
-export { app, auth, db };
+export const auth = getAuth(app);
+export const db = getFirestore(app);
